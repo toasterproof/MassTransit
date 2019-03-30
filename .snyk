@@ -1,0 +1,69 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - gitbook > npmi > npm > request > hawk > boom > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npm > request > hawk > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook > npm > request > hawk > sntp > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npm > node-gyp > request > hawk > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook > npm > request > hawk > boom > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook > npmi > npm > request > hawk > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npm > request > hawk > sntp > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npmi > npm > request > hawk > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npm > request > hawk > boom > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npmi > npm > request > hawk > sntp > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npmi > npm > request > hawk > boom > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook > npmi > npm > request > hawk > sntp > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook > npm > request > hawk > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npmi > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook > npmi > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-30T00:09:30.395Z'
+  'npm:minimatch:20160620':
+    - gitbook > npm > node-gyp > glob > minimatch:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook > npm > node-gyp > minimatch:
+        patched: '2019-03-30T00:09:30.395Z'
+  'npm:tough-cookie:20170905':
+    - gitbook > npm > request > tough-cookie:
+        patched: '2019-03-30T00:09:30.395Z'
+  'npm:tunnel-agent:20170305':
+    - gitbook > npm > request > tunnel-agent:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook > npmi > npm > request > tunnel-agent:
+        patched: '2019-03-30T00:09:30.395Z'
+    - gitbook-cli > npmi > npm > request > tunnel-agent:
+        patched: '2019-03-30T00:09:30.395Z'
